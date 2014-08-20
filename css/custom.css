@@ -1,0 +1,59 @@
+#header {
+    background: url(../img/low%20poly.jpg) no-repeat center top;
+    background-size: 100% auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    background-attachment: relative;
+	background-position: center center;
+
+    font-family: "Raleway";
+    width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header h1 {
+    font-weight: 300;
+    font-size: 80px;
+    color: #fff;
+}
+
+#header h4 {
+    font-size: 20px;
+    color: #fff;
+}
+
+#about {
+    background-color: #2c3e50;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    font-family: "Arimo";
+    font-size: 16px;
+}
+
+img {
+    border: 2px solid black;
+}
+
+.portfolio {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: "Arimo";
+    font-size: 16px;
+    background-color: white;
+}
+
+.blue {
+    background-color: #2c3e50;
+    color: white;
+}
