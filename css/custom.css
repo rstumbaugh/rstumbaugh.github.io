@@ -73,14 +73,6 @@
     color: white;
 }
 
-.portfolio a:hover {
-    background-color: #3A66A7;
-
-    text-decoration: none;
-
-    color: white;
-}
-
 .mybtn {
     margin-top: 5px;
     padding-top: 10px;
@@ -91,3 +83,11 @@
     
     color: white;
 }
+
+.mybtn:hover {
+    background-color: #3A66A7;
+    text-decoration: none;
+    color: white;
+}
+
+
