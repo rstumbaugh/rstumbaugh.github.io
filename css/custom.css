@@ -1,4 +1,13 @@
-#header {
+/* 
+    custom.css
+    Ryan Stumbaugh
+    August 20, 2014
+*/
+
+
+/* WRAPPERS */
+
+#headerwrap {
     background: url(../img/bg.jpg) no-repeat center top;
     background-size: 100% auto;
     padding-top: 40px;
@@ -23,30 +32,26 @@
     background-size: cover;
 }
 
-#header h1 {
+#headerwrap h1 {
     font-weight: 300;
     font-size: 5.5em;
     color: #fff;
 }
 
-#header h4 {
+#headerwrap h4 {
     font-size: 20px;
     color: #fff;
 }
 
-#header a {
+#headerwrap a {
     color:white;
     text-decoration: underline;
 }
 
-.title {
-    font-weight: bold;
-}
-
-#about {
+#aboutwrap {
     background-color: #5F9EA0;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     color: white;
     font-family: "Raleway", sans-serif;
     font-weight: 300;
@@ -54,11 +59,7 @@
     line-height: 1.6;
 }
 
-.img-responsive {
-    border: 2px solid black;
-}
-
-.portfolio {
+.portfoliowrap {
     padding-top: 40px;
     padding-bottom: 40px;
     font-family: "Raleway", sans-serif;
@@ -73,12 +74,35 @@
     color: white;
 }
 
+#footerwrap {
+    padding: 40px;
+    background-color: #6B6B6B;
+}
+
+#footerwrap a {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #5F9EA0;
+}
+
+/* MISC */
+
+.title {
+    font-weight: bold;
+}
+
+
+
+.img-responsive {
+    border: 2px solid black;
+}
+
+
 .mybtn {
-    margin-top: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
     background-color: #1B3F8B;
     
     color: white;
