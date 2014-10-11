@@ -1,141 +1,397 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>About Me | Ryan Stumbaugh</title>
+<html lang="en">
 
-        <meta charset="utf-8">
+<head>
 
-        <link rel="shortcut icon" href="img/favicon.ico" />
-        
-        <!-- Custom CSS -->
-        <link href="css/custom.css" rel="stylesheet">
-        
-        <!-- Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-        
-        <!-- Bootstrap CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!-- Google Analytics Tracking -->
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <title>About Me</title>
 
-          ga('create', 'UA-53954445-2', 'auto');
-          ga('send', 'pageview');
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        </script>
-        
-    </head>
+    <!-- Custom CSS -->
+    <link href="css/stylesheet.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="font-mfizz/font-mfizz.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+
     
-    <body data-spy="scroll" data-offset="0" data-target="#headerwrap">
-        <div id="headerwrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h1>Ryan <br>Stumbaugh</h1>
-                        <h4>Pennsbury Senior | <a href="mailto:rstumbaugh1@gmail.com" target="_blank">rstumbaugh1@gmail.com</a></h4><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div id="aboutwrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2">
-                        <p class="title">ABOUT</p>
-                    </div>
-                    <div class="col-md-9">
-                        <p>
-                            Hi, I'm Ryan Stumbaugh, a senior at Pennsbury High School and aspiring software developer. Along with taking many programming courses at Pennsbury, I taught myself a lot about Java and computer science in general. Starting around the beginning of tenth grade, I began to get seriously interested in coding and spent countless hours researching new subjects and learning how to practically implement them in my code. This is a small portfolio of my most notable works, which were mostly done outside of school. While I have created many more projects and applications such as Pong, Blackjack, and Tron, I felt these two best showcase the skills I've learned. The projects are available to download but you must have Java (available <a href="https://java.com/en/download/index.jsp" style="color:white;text-decoration:underline">here</a>) installed on your computer for them to run. Thanks for reading and enjoy!
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="portfoliowrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p class="title">PORTFOLIO</p><br>
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <img class="img-responsive" src="img/battleship.jpg">
-                    </div>
-                    <div class="col-md-5">
-                        <p class="title">BATTLESHIP</p>
-                        <p>A classic game for everyone: Battleship! Be the first to figure out where the enemy has hidden their ships. Play either single-player mode against a CPU or play against a friend via LAN.  This was my first major project and took around a year and a half to complete. Before starting Battleship, I knew little to nothing about making GUIs in Java and absolutely nothing about network I/O, so this project was a fun way to learn new skills. <br>(November 2012 - January 2014)</p><br>
-                        <a class="mybtn" href="proj/Battleship.jar">Download</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfoliowrap blue">
-            <div class="container">
-                <div class="row">                    
-                    <div class="col-md-6">
-                        <img class="img-responsive" src="img/castle.jpg">
-                    </div>
-                    <div class="col-md-5">
-                        <p class="title">CASTLE ATTACK</p>
-                        <p>A fun, addictive single-player defense game. You must spawn soldiers and fire projectiles to try to destroy the enemy's castle before he destroys yours! Use gold to purchase upgrades and special items in the shop. In case you want to pick up where you left off, the game features save and load features as well. Working on this project taught me about both writing to and reading from XML files in Java along with creating my own custom GUI while still using Swing components. <br>(February 2014 - July 2014)</p><br>
-                        <a class="mybtn" href="proj/Castle%20Attack.jar">Download</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfoliowrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img class="img-responsive" src="img/coming%20soon.jpg" style="width:100%;height:100%">
-                    </div>
-                    <div class="col-md-5">
-                        <p class="title">BOOKLER</p>
-                        <p>My current project, Bookler, was inspired by a teacher friend of my mother. The teacher remarked how convenient it would be to have an app that could keep track of which students have checked out which books, which books are still checked out, which have been returned, etc. So Bookler was born! I am using Cordova to create a hybrid HTML-based app that can easily run on both Android and iOS devices. I have only recently started, so the app is still in the very early stages, but I am looking forward to what I will learn and where this app will take me!<br><br>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-                        <strong>CURRENT PROGRESS:</strong> set up Cordova, learning about mobile programming and discovering new HTML frameworks such as jQuery Mobile.</p><br>
-                        <a class="mybtn" href="#">Download</a>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">About</span> Me
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a href="#top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#top">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#resume">Resume</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <div class="text-wrap">
+                <h1>Ryan Stumbaugh</h1>
+                <h3>Pennsbury Senior | <a href="mailto:rstumbaugh1@gmail.com" style="color:white;text-decoration: underline">rstumbaugh1@gmail.com</a></h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>My Bio</h2>
+                    <hr class="small" style="color:black">
+                    <p class="lead">Hi, I'm Ryan Stumbaugh, a senior at Pennsbury High School and aspiring software developer. Along with taking many programming courses at Pennsbury, I taught myself a lot about Java and programming outside of school. In tenth grade, I began to get seriously interested in programming and spent countless hours researching new subjects and learning how to practically implement them in my code. I plan to keep learning more about programming and computer science both in and out of school.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="resume bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>My Resume</h2>
+                    <hr class="small"><br>
+                    <h3>Programming Experience</h3>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa stack fa-4x">
+                                    <div class="circle">
+                                        <i class="icon-java-bold"></i>
+                                    </div>
+                                </span>
+                                <h4>
+                                    <strong>Java</strong>
+                                </h4>
+                                <p>4 years of experience, primary language. Many projects in and out of school</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa stack fa-4x">
+                                    <div class="circle">
+                                        <i class="icon-python"></i>
+                                    </div>
+                                </span>
+                                <h4>
+                                    <strong>Python</strong>
+                                </h4>
+                                <p>2 years of experience, used mainly in school</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa stack fa-4x">
+                                    <div class="circle">
+                                        <i class="icon-html"></i>
+                                    </div>
+                                </span>
+                                <h4>
+                                    <strong>HTML/CSS</strong>
+                                </h4>
+                                <p>3 years of experience, many projects outside of school</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa stack fa-4x">
+                                    <div class="circle">
+                                        <i class="icon-javascript"></i>
+                                    </div>
+                                </span>
+                                <h4>
+                                    <strong>JavaScript/jQuery</strong>
+                                </h4>
+                                <p>3 years of experience, many projecs outside of school</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>Awards</h3>
+                        <div class="row text-left">
+                            <div class="col-sm-12">
+                                <h3>Academic</h3>
+                            </div>
+                            <ul>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">National Spanish Exam Junior Travel Award</h4>
+                                    <h4>1 in 16 winners nationally, won a free trip to Spain during the summer of 2014</h4>
+                                </li>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">National Spanish Exam Silver Prize</h4>
+                                    <h4>Scored in the upper 9th percentile on the National Spanish Exam both Sophomore and Junior years</h4>
+                                </li>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">Academic Excellence in Computer Science</h4>
+                                    <h4>Excelled in Computer Science, received award both Freshman and Sophomore years</h4>
+                                </li>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">Programming Club Award</h4>
+                                    <h4>Member of Programming Club since Freshman year, currently president of the club</h4>
+                                </li>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">Mathletes Award</h4>
+                                    <h4>Member of school's Mathletes team since Junior year, helped lead team to first place in regional championship</h4>
+                                </li>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">Foreign Language Competition Blue Ribbon</h4>
+                                    <h4>Won Blue Ribbon at regional Spanish competition, debated against other students</h4>
+                                </li>
+                            </ul>
+                            <div class="col-sm-12">
+                                <h3>Athletic</h3>
+                            </div>
+                            <ul>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">Varsity P for Tennis</h4>
+                                    <h4>Played on school's varsity tennis team since Freshman year</h4>
+                                </li>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">All League Doubles First Team</h4>
+                                    <h4>Selected to be a league First Team in doubles both Sophomore and Junior years</h4>
+                                </li>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">All League Doubles Honorable Mention</h4>
+                                    <h4>Received Honorable Mention in doubles as a Freshman</h4>
+                                </li>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">Suburban One League 2012 Champions</h4>
+                                    <h4>Helped lead team to win the league championships as a Freshman</h4>
+                                </li>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">2012 Pennsylvania State Championship Quarterfinalists</h4>
+                                    <h4>Helped lead team to state championships, made it to quarterfinal round</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                    <h3>Clubs and Organizations</h3>
+                        <div class="row text-left">
+                            <ul>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">Programming Club</h4>
+                                    <h4>Current president of club, active member since Freshman year</h4>
+                                    <h4>Placed as high as 4th Place at University of Pennsylvania's PClassic programming competition, attended 2012-2014</h4>
+                                </li>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">National Honor Society</h4>
+                                    <h4>Officer (Technology Liaison) of NHS, inducted end of 2014 school year</h4>
+                                </li>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">Spanish Honor Society</h4>
+                                    <h4>One of a few select students to be a member of Spanish Honor Society from Sophomore to Senior year</h4>
+                                    <h4>Maintained at least a 93 average in all 5 levels of Spanish (including AP)</h4>
+                                </li>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">Mathletes</h4>
+                                    <h4>Helped team win regional championships, member of team since Junior Year</h4>
+                                </li>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">Spanish Newspaper Editor</h4>
+                                    <h4>Editor for <span style="font-style:italic;margin-right:5px">La Voz</span> since Junior year</h4>
+                                </li>
+                            </ul>
+                        </div>
+                    <hr>
+                    <h3>Work Experience</h3>
+                        <div class="row text-left">
+                            <ul>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">HCR ManorCare Nursing Home</h4>
+                                    <h4>Dietary Aide at ManorCare Yardley</h4>
+                                    <h4>Worked in kitchen since July 2013</h4>
+                                    <h4>10 hours/week during school year, 20+ hours/week during summer</h4>
+                                </li>
+                                <li class="col-sm-6">
+                                    <h4 class="underline">YM Tennis</h4>
+                                    <h4>Tennis instructor from 6th-11th grade</h4>
+                                    <h4>Taught children of all ages fundamentals of tennis</h4>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <div class="text-wrap">
+                <h2>""You miss 100% of the shots you don't take"   -Wayne Gretzky" -Ryan Stumbaugh</h2>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>My Work</h2>
+                    <hr class="small">
+                    <p class="lead">This is a small portfolio of my favorite works, which were mostly done outside of school. While I have created many more projects and applications such as Pong, Blackjack, and Tron, I felt these best showcase the skills I've learned. The projects are available to download but you must have Java installed on your computer for them to run. Thanks for reading and enjoy!</p><br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item flip">
+                                <div class="card">
+                                    <div class="face front">
+                                        <img class="img-portfolio img-responsive" src="img/pizza.png">
+                                    </div>
+                                    <div class="face back" style="background:#ffc800">
+                                        <h4 class="underline">Falling Pizza</h4>
+                                        <p>Falling Pizza, while not as impressive as some of my other games, is the first game I ever programmed. The game is not very impressive, the artwork is sloppy, and there are some major flaws. However, this game was my first experience with Java graphics and game programming and gave me my first taste of what I am capable of creating.
+                                        </p><br>
+                                        <a class="download-btn" href="proj/Falling Pizza.jar">Download</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item flip">
+                                <div class="card">
+                                    <div class="face front">
+                                        <img class="img-portfolio img-responsive" src="img/castle.png">
+                                    </div>
+                                    <div class="face back" style="background:#79add7">
+                                        <h4 class="underline">Castle Attack</h4>
+                                        <p>A fun, addictive single-player defense game. You must spawn soldiers and fire projectiles to try to destroy the enemy's castle before he destroys yours! Use gold to purchase upgrades and special items in the shop. In case you want to pick up where you left off, the game features save and load capabilities. Working on this project taught me about both writing to and reading from XML files in Java along with creating my own custom GUI. <br>(February 2014 - July 2014)</p>
+                                        <a class="download-btn" href="proj/Castle Attack.jar">Download</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item flip">
+                                <div class="card">
+                                    <div class="face front">
+                                        <img class="img-portfolio img-responsive" src="img/battleship.png">
+                                    </div>
+                                    <div class="face back" style="background:#11285d;color:white">
+                                        <h4 class="underline">Battleship</h4>
+                                        <p>A classic game for everyone: Battleship! Be the first to figure out where the enemy has hidden their ships. Play either single-player mode against a CPU or play against a friend via LAN.  This was my first major project and took around a year and a half to complete. Before starting Battleship, I knew little to nothing about making GUIs in Java and absolutely nothing about network I/O, so this project was a fun way to learn new skills. <br>(November 2012 - January 2014)</p>
+                                        <a class="download-btn" href="proj/Battleship.jar">Download</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item flip">
+                                <div class="card">
+                                    <div class="face front">
+                                        <img class="img-portfolio img-responsive" src="img/coming soon.png">
+                                    </div>
+                                    <div class="face back">
+                                        <h4 class="underline">Bookler</h4>
+                                        <p>My current project, Bookler, is a hybrid web app used to help teachers manage their class libraries. This app is written in HTML, CSS, and JavaScript and will be available on both Android and iOS app stores.</p>
+                                        <h4 class="underline">Air Sync</h4>
+                                        <p>Another current project, Air Sync, will let Android users sync their music libraries wirelessly with their computers. I am nearing completion with the back end (connecting client and server, sync algorithms) and working on user interface.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="portfoliowrap blue">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img class="img-responsive" src="img/coming%20soon.jpg" style="width:100%;height:100%">
-                    </div>
-                    <div class="col-md-5">
-                        <p class="title">AIR SYNC</p>
-                        <p>Another current project: a WiFi sync app for Android devices. The user can sync their phone's music library with a directory on a local machine quickly and efficiently. Started in June 2014, there is no projected date for when the app will be done. This app has been placed on the back burner for a while while I work on the Bookler. Already I have learned more about networking with Java, modern web protocols and am currently learning about two-way syncing.<br><br>
-
-                       <strong>CURRENT PROGRESS:</strong> implemented file transfer between client and server, working on sync algorithm</p><br>
-                        <a class="mybtn" href="#">Download</a>
-                    </div>
+    <!-- Footer -->
+    <footer class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Ryan Stumbaugh</strong>
+                    </h4>
+                    <p>Pennsbury High School<br>Fairless Hills, PA</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:rstumbaugh1@gmail.com" style="color:white">rstumbaugh1@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <div class="btn btn-dark"><a class="page-scroll" href="#top" style="color:white">Return to Top</a></div>
+                    <hr class="small">
                 </div>
             </div>
         </div>
+    </footer>
 
-        <div id="footerwrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2 col-md-offset-5">
-                        <p><a class="smoothScroll" href="#headerwrap">Back to top</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <script src="http://code.jquery.com/jquery.js"></script>
-        <script type="text/javascript" src="js/smoothscroll.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </body>
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/jquery.flip.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
 </html>
