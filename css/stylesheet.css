@@ -44,6 +44,10 @@ p {
     font-weight: bold;
 }
 
+.col-sm-6:nth-child(2n+1) {
+    clear:left;
+}w
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -180,10 +184,6 @@ hr.small {
     display: inline;
 }
 
-.resume ul .col-sm-6:nth-child(2n+1) {
-    clear:left;
-}
-
 .resume li h4 {
     font-family: "Lato";
     font-weight: 300;
@@ -211,6 +211,12 @@ hr.small {
     color: #428bca;
 }
 
+@media only screen and (min-width : 992px) {
+    .service-item:nth-child(2n+1) {
+        clear:none;
+    }
+}
+
 /* Callout */
 
 .callout {
@@ -227,6 +233,7 @@ hr.small {
 
 .callout .text-wrap {
     width: 63%;
+    overflow: hidden;
 }
 
 .callout .text-wrap h2 {
@@ -296,6 +303,7 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+    font-weight: 300;
 }
 
 .img-portfolio {
