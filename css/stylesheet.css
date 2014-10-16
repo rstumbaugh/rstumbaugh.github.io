@@ -241,7 +241,7 @@ hr.small {
 }
 
 
-/* resume */
+/* portfolio */
 
 .portfolio-item {
     position: relative;
@@ -303,7 +303,6 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
-    font-weight: 300;
 }
 
 .img-portfolio {
