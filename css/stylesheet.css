@@ -46,7 +46,7 @@ p {
 
 .col-sm-6:nth-child(2n+1) {
     clear:left;
-}w
+}
 
 /* Custom Button Styles */
 
@@ -154,6 +154,14 @@ hr.small {
     width: 40%;
 }
 
+.header .fa-circle {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.header .down {
+    margin-top: 5%;
+}
+
 /* About */
 
 .about {
@@ -195,7 +203,7 @@ hr.small {
     padding-left: 0em;
 }
 
-.circle {
+.service-item .circle {
     width:1.5em;
     height:1.5em;
     border-radius:50%;
@@ -207,7 +215,7 @@ hr.small {
 
 }
 
-.circle i {
+.service-item .circle i {
     color: #428bca;
 }
 
