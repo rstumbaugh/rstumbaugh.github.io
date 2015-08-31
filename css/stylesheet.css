@@ -159,7 +159,7 @@ hr.small {
 }
 
 .header .down {
-    margin-top: 5%;
+    top: 0;
 }
 
 /* About */
@@ -251,6 +251,11 @@ hr.small {
 
 /* portfolio */
 
+.portfolio {
+    background-color: white ;    
+    color: black;
+}
+
 .portfolio-item {
     position: relative;
     height: 300px;
@@ -279,17 +284,20 @@ hr.small {
 .portfolio-item .card .front {
     position: absolute;
     z-index: 1;
-    background: white;
-    color: black;
+    background-color: inherit ;
     cursor: pointer;
     border: 1px solid black;
     text-align: center;
+    line-height: 300px;
+    font-size: 4rem;
+    font-weight: 300;
 }
 
 .portfolio-item .card .back {
     -webkit-transform: rotatey(180deg);
     cursor: pointer;
-    border: 1px solid black;
+    border: 2px solid black;
+    background-color: inherit;
 
 }
 
