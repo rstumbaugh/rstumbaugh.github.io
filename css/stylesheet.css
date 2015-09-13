@@ -41,7 +41,6 @@ p {
 
 .underline {
     text-decoration: underline;
-    font-weight: bold;
 }
 
 .col-sm-6:nth-child(2n+1) {
@@ -196,11 +195,6 @@ hr.small {
     font-family: "Lato";
     font-weight: 300;
     text-align: justify;
-    padding-left: 2em;
-}
-
-.resume h4:first-child {
-    padding-left: 0em;
 }
 
 .service-item .circle {
