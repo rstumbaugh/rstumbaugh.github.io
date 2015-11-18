@@ -7,11 +7,11 @@ body {
 }
 
 body {
-    font-family: "Raleway", "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-family: "Raleway", "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p {
-    font-family: "Lato", sans-serif !important;
+    font-family: "Lato", sans-serif;
 }
 
 .text-vertical-center {
@@ -87,7 +87,7 @@ hr.small {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: rgba(0, 0, 0, .3)
 }
 
@@ -179,7 +179,7 @@ hr.small {
 }
 
 .resume h3 {
-    font-family: "Lato", sans-serif !important;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
 }
 
@@ -192,7 +192,7 @@ hr.small {
 }
 
 .resume li h4 {
-    font-family: "Lato" !important;
+    font-family: "Lato";
     font-weight: 300;
     text-align: justify;
 }
