@@ -1,0 +1,9 @@
+$prefixes: (webkit, ms, moz);
+
+@mixin prefix($property, $value) {
+	@each $prefix in $prefixes {
+		#{'-' + $prefix + '-' + $property}: $value;
+	}
+
+	#{property}: value;
+}
