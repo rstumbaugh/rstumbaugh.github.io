@@ -28,6 +28,17 @@ header {
 			color: #DADADA;
 			font-weight: 300;
 		}
+
+		@include media-md {
+			& {
+				padding-top: 100px;
+				padding-left: 15px;
+
+				h1.header-name {
+					font-size: 60px;
+				}
+			}
+		}
 	}
 	
 }
