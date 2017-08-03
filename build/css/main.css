@@ -96,6 +96,9 @@ section#about {
         section#about .about-wrap .about-text {
           width: 90%;
           margin-left: 5%; } }
+  @media (max-width: 992px) {
+    section#about .social-resume {
+      text-align: center; } }
 
 section#experience {
   padding-top: 3em;
@@ -300,7 +303,8 @@ section#social {
     padding-right: 15px;
     color: #333; }
     .social-links a.link:hover {
-      color: #333; }
+      color: #333;
+      text-decoration: none; }
     .social-links a.link:first-child {
       padding-left: 0; }
     .social-links a.link:last-child {
@@ -311,6 +315,9 @@ section#social {
       color: #0077B5; }
     .social-links a.link.facebook {
       color: #4267b2; }
+  @media (max-width: 992px) {
+    .social-links {
+      text-align: center; } }
 
 .resume-link {
   margin-top: 20px;

@@ -26,6 +26,7 @@ section#social {
 
 		&:hover {
 			color: #333;
+			text-decoration: none;
 		}
 
 		&:first-child {
@@ -47,5 +48,9 @@ section#social {
 		&.facebook {
 			color: #4267b2;
 		}
+	}
+
+	@include media-md {
+		text-align: center;
 	}
 }

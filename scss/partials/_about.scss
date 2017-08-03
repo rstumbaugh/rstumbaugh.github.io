@@ -38,4 +38,10 @@ section#about {
 			}
 		}
 	}
+
+	@include media-md {
+		.social-resume {
+			text-align: center;
+		}
+	}
 }
