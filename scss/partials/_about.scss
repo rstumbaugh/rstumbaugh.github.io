@@ -6,6 +6,7 @@ section#about {
 
 	.about-wrap {
 		width: 90%;
+		margin: 0 auto;
 		display: table;
 
 		.about-header-wrap {
@@ -13,6 +14,10 @@ section#about {
 			text-align: center;
 			display: inline-block;
 			vertical-align: top;
+
+			@include media-md {
+				width: 100%;
+			}
 		}
 
 		.about-text {
@@ -24,6 +29,13 @@ section#about {
 			font-size: 16px;
 			line-height: 24px;
 			font-weight: 400;
+
+			@include media-md {
+				& {
+					width: 90%;
+					margin-left: 5%;
+				}
+			}
 		}
 	}
 }

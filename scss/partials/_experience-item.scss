@@ -82,4 +82,17 @@ $icon-size: 28px;
 			}
 		}
 	}
+
+	@include media-md {
+		$date-width: 15%;
+		$description-width: calc(100% - #{$date-width} - #{$icon-width});
+
+		span.item-date {
+			width: $date-width;
+		}
+
+		.item-description {
+			width: $description-width;
+		}
+	}
 }

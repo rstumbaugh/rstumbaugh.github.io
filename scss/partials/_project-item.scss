@@ -7,7 +7,6 @@ $filter-color: rgba(171, 171, 171, 0.33);
 
 .project-item {
 	display: table;
-	min-height: $item-height;
 	box-shadow: $shadow;
 	margin-top: 25px;
 
@@ -76,6 +75,16 @@ $filter-color: rgba(171, 171, 171, 0.33);
 			font-size: 16px;
 			padding-top: 5px;
 			display: block;
+		}
+	}
+
+	@include media-md {
+		.project-item-right {
+			width: 100%;
+		}
+
+		.project-item-description {
+			height: initial;
 		}
 	}
 }

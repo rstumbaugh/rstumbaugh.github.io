@@ -22,6 +22,10 @@ section#projects {
 		.project-items-wrap {
 			width: 60%;
 			margin: 0 auto;
+
+			@include media-md {
+				width: 90%;
+			}
 		}
 	}
 }
