@@ -17,7 +17,6 @@ body {
 }
 
 body {
-	padding-bottom: 5%;
 	background-color: $gray;
 }
 
@@ -46,3 +45,5 @@ h1.section-header {
 @import "partials/experience-item";
 @import "partials/project";
 @import "partials/project-item";
+@import "partials/social";
+@import "partials/resume";
