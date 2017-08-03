@@ -3,17 +3,18 @@ $icon-width: 50px;
 $description-width: calc(100% - #{$date-width} - #{$icon-width});
 
 $icon-size: 28px;
+$item-margin: 4em;
 
 .experience-item {
 	display: table;
-	margin-top: 4em;
+	margin-top: $item-margin;
 
 	&:first-child {
 		margin-top: 2em;
 	}
 
 	& > * {
-		display: inline-block;
+		display: table-cell;
 		vertical-align: top;
 	}
 
@@ -30,6 +31,7 @@ $icon-size: 28px;
 	.item-timeline-wrap {
 		height: 100%;
 		text-align: center;
+		position: relative;
 
 		.item-icon-wrap {
 			font-size: $icon-size;
@@ -43,14 +45,18 @@ $icon-size: 28px;
 			i {
 				margin-top: 10px;
 				margin-left: -2px;
+				z-index: 2;
 			}
 		}
 
 		.item-timeline-line {
-			height: 110%;
 			width: 4px;
+			position: absolute;
+			top: 0;
+			bottom: -$item-margin;
+			left: calc(#{$icon-width}/2 - 2px);
 			background-color: $blue;
-			margin: 0 auto;
+			z-index: 1;
 		}
 	}
 
