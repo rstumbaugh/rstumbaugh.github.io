@@ -48,14 +48,15 @@ $filter-color: rgba(171, 171, 171, 0.33);
 	}
 
 	.project-img {
+		position: absolute;
 		width: 100%;
-		height: $item-height;
+		height: 100%;
 		background-size: cover;
 	}
 
 	.project-item-description {
 		width: 100%;
-		height: $item-height;
+		min-height: $item-height;
 		background-color: white;
 		padding: 25px 15px;
 		text-align: left;
@@ -68,23 +69,22 @@ $filter-color: rgba(171, 171, 171, 0.33);
 			width: 100%;
 			color: $darkgray;
 			font-weight: 400;
-			margin-top: 10px
+			margin-top: 10px;
 		}
 
-		a.project-link {
-			font-size: 16px;
-			padding-top: 5px;
+		a.project-item-link {
 			display: block;
+			margin-bottom: 20px;
 		}
 	}
 
 	@include media-md {
+		.project-item-left {
+			width: 30%;
+		}
+		
 		.project-item-right {
 			width: 100%;
-		}
-
-		.project-item-description {
-			height: initial;
 		}
 	}
 }

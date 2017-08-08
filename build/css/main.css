@@ -170,7 +170,8 @@ section#experience {
       .experience-item .item-description .item-content p.item-text {
         padding-top: 10px;
         font-size: 14px;
-        color: #757575; }
+        color: #757575;
+        margin-bottom: 20px; }
   @media (max-width: 992px) {
     .experience-item span.item-date {
       width: 15%; }
@@ -247,12 +248,13 @@ section#projects {
     right: 0;
     z-index: 5; }
   .project-item .project-img {
+    position: absolute;
     width: 100%;
-    height: 250px;
+    height: 100%;
     background-size: cover; }
   .project-item .project-item-description {
     width: 100%;
-    height: 250px;
+    min-height: 250px;
     background-color: white;
     padding: 25px 15px;
     text-align: left; }
@@ -263,15 +265,14 @@ section#projects {
       color: #757575;
       font-weight: 400;
       margin-top: 10px; }
-    .project-item .project-item-description a.project-link {
-      font-size: 16px;
-      padding-top: 5px;
-      display: block; }
+    .project-item .project-item-description a.project-item-link {
+      display: block;
+      margin-bottom: 20px; }
   @media (max-width: 992px) {
+    .project-item .project-item-left {
+      width: 30%; }
     .project-item .project-item-right {
-      width: 100%; }
-    .project-item .project-item-description {
-      height: initial; } }
+      width: 100%; } }
 
 #image-terpsearch {
   background-image: url("../../img/terpsearch.png"); }
@@ -327,5 +328,12 @@ section#social {
   display: inline-block; }
   .resume-link a {
     color: #ecf0f1; }
+
+span.tag {
+  padding: 5px;
+  background-color: #7280fd;
+  color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+  margin-right: 5px; }
 
 /*# sourceMappingURL=main.css.map */
