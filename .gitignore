@@ -1,5 +1,5 @@
 .DS_STORE
 *.swp
 *.scssc
-build/
+build/**/*.css.map
 .sass-cache/
