@@ -95,6 +95,11 @@ section#about {
       @media (max-width: 992px) {
         section#about .about-wrap .about-text {
           width: 100%; } }
+      section#about .about-wrap .about-text p {
+        width: 80%; }
+        @media (max-width: 992px) {
+          section#about .about-wrap .about-text p {
+            width: 100%; } }
   @media (max-width: 992px) {
     section#about .social-resume {
       text-align: center; } }
