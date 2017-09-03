@@ -98,6 +98,10 @@ $item-margin: 4em;
 			width: $date-width;
 		}
 
+		h6.item-date {
+			font-size: 14px;
+		}
+
 		.item-description {
 			width: $description-width;
 		}
