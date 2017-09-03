@@ -1,2 +1,5 @@
 .DS_STORE
 *.swp
+*.scssc
+build/
+.sass-cache/
