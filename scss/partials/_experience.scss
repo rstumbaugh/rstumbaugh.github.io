@@ -6,13 +6,17 @@ section#experience {
 		margin: 0 auto;
 		text-align: center;
 
+		@include media-md {
+			width: 90%;
+		}
+
 		.experience-items-wrap {
 			text-align: left;
 			width: 70%;
 			margin: 0 auto;
 
 			@include media-md {
-				width: 90%;
+				width: 100%;
 			}
 		}
 	}
